@@ -1,0 +1,76 @@
+html{
+    font-size: 62.5%
+}
+
+a{
+    text-decoration: none;
+   color: white;
+}
+.size{
+    width: 300px;
+}
+p{
+    max-width: 300px;
+}
+.text-shadow{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.hover:hover{
+    transform: scale(1.05);
+    transition: ease 0.3s;
+}
+
+header{
+
+    .btn-menu {
+      display: flex;
+      gap: 10px;
+    }
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+i {
+    font-size: 18px;
+    }
+    
+    footer{
+        
+        
+        p {
+            font-size: 14px;
+            
+        }
+        
+        .carousel-item1 img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            
+        }  
+
+ .hover1:hover{
+    color: green;
+ }
+        .hover2:hover{
+    color: rgb(202, 41, 196);
+ }
+    
+ .hover3:hover{
+        color: rgb(5, 16, 169);
+ }
+ .hover4:hover{
+        color: rgb(3, 142, 255);
+   }
+    
+.hdj:hover{
+   transform: scale(1.05);
+   transition: ease 0.3s;
+  }
+
+}

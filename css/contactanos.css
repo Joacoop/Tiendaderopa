@@ -1,0 +1,86 @@
+html{
+  font-size: 62.5%;
+}
+body {
+  height: 500px;
+  background-image: url("../assets/contactanos/fondo\ de\ contacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+ color: white;
+}
+.bg-formt{ 
+  background-color: rgba(0, 0, 0, 0.548);
+ font-size: 1rem;
+}
+.margin{
+  margin-top: 100px;
+}
+
+.hover:hover{
+  transform: scale(1.05);
+  transition: ease 0.3s;
+}
+.hover-text:hover{
+  transform: scale(0.95);
+  transition: ease 0.3s;
+}
+
+header{
+
+  .btn-menu {
+    display: flex;
+    gap: 10px;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+footer{
+        margin-top: 50px;
+  i {
+    font-size: 18px;
+    }
+        
+  p {
+      font-size: 14px;
+      
+  }
+  
+  .carousel-item1 img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      
+  }  
+
+.hover1:hover{
+color: green;
+}
+  .hover2:hover{
+color: rgb(202, 41, 196);
+}
+
+.hover3:hover{
+  color: rgb(5, 16, 169);
+}
+.hover4:hover{
+  color: rgb(3, 142, 255);
+}
+
+.hdj:hover{
+transform: scale(1.05);
+transition: ease 0.3s;
+}
+
+}
